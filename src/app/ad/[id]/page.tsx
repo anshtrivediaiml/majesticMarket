@@ -1,3 +1,4 @@
+//Any ad with a particualar id can be viewed here 
 'use server'
 import React from 'react'
 import {connect} from '@/libs/helpers'; 
