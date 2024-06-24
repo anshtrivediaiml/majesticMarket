@@ -63,10 +63,11 @@ export default function SearchForm({action}:Props) {
       <label htmlFor="" className='text-amber-600' >Filter By Price:</label>
         <div className="grid grid-cols-2 gap-4">
             <div >
-             <input type="number" name="min-price" placeholder="min" className="bg-gray-900 focus:outline-none focus:caret-amber-400"/>
+             <input type="number" name="min-price" placeholder="min" className="bg-gray-900 focus:outline-none focus:caret-amber-400
+             text-amber-400"/>
             </div>
             <div>
-             <input  type="number" name="max-price" placeholder="max" className="bg-gray-900 focus:outline-none focus:caret-amber-400"/>
+             <input  type="number" name="max-price" placeholder="max" className="bg-gray-900 focus:outline-none focus:caret-amber-400 text-amber-400"/>
             </div>
             
         </div>
